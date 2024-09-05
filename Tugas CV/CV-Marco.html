@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-MARCO</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../Tugas CV/profile_pic.jpg" alt="Profile Photo" class="profile-photo">
+            <h1>Marco</h1>
+            <p class="role">Campus Student</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#biodata" onclick="showTab('biodata')">About Me</a></li>
+                <li><a href="#contact" onclick="showTab('contact')">Contact</a></li>
+                <li><a href="#education" onclick="showTab('education')">Education</a></li>
+                <li><a href="#skills" onclick="showTab('skills')">Skills</a></li>
+                <li><a href="#hobbies" onclick="showTab('hobbies')">Hobbies</a></li>
+            </ul>
+        </nav>
+
+        <section id="content">
+            <div id="biodata" class="tab-content">
+                <h2>About Me</h2>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-user"></i></div>
+                    <h3>Introduction</h3>
+                    <p>I'm a passionate student of Information Technology, Untar. Eager to learn and grow in the tech world. My journey started with a strong foundation in basic computing and has evolved into a deep interest in web development and artificial intelligence.</p>
+                </div>
+            </div>
+
+            <div id="contact" class="tab-content">
+                <h2>Contact Information</h2>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:marcohuang552@gmail.com" onclick="openGmail()">marcohuang552@gmail.com</a>
+                    </p>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-phone"></i></div>
+                    <h3>Phone</h3>
+                    <p>+629650966399</p>
+                </div>
+            </div>
+
+            <div id="education" class="tab-content">
+                <h2>Education</h2>
+                <div class="education-card">
+                    <h3><i class="fa-solid fa-school"></i> Sekolah Sinar Dharma</h3>
+                    <p class="dates">2013-2023</p>
+                </div>
+                <div class="education-card">
+                    <h3><i class="fa-solid fa-university"></i> Universitas Tarumanagara</h3>
+                    <p class="dates">2023-Present</p>
+                </div>
+            </div>
+
+            <div id="skills" class="tab-content">
+                <h2>Skills</h2>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Web Designing</h3>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-headphones"></i></div>
+                    <h3>Sound Mixing</h3>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>AI Prompting</h3>
+                    <p>Experienced in designing and refining prompts for AI models to generate accurate and useful responses.</p>
+                </div>
+            </div>
+
+            <div id="hobbies" class="tab-content">
+                <h2>Hobbies</h2>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-bicycle"></i></div>
+                    <h3>Cycling</h3>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3>Gaming</h3>
+                </div>
+                <div class="tab-card">
+                    <div class="tab-icon"><i class="fa-solid fa-book"></i></div>
+                    <h3>Reading</h3>
+                </div>
+            </div>
+        </section>
+
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+    </div>
+
+    <script src="../Tugas CV/script.js"></script>
+</body>
+</html>
